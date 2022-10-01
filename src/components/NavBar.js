@@ -3,9 +3,11 @@ import React from "react";
 const NavBar = () => {
   return (
     <div>
-      <div className="flex justify-between px-[200px] pt-[50px]">
+      <div className="flex justify-between px-[200px] mt-[50px]">
         <div className=" flex gap-[41px]">
-          <h1 className="bg-emerald-400 flex rounded-full w-[25px] text-white  justify-center ">RK</h1>
+          <h1 className="bg-[#1EA59A] flex rounded-[50px] w-[55px] text-white  justify-center items-center ">
+            RK
+          </h1>
           <ul className="flex gap-[41px]">
             <li>Temukan lokasi</li>
             <li>Jenis Ruang</li>

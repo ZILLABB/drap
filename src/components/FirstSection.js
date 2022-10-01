@@ -5,10 +5,10 @@ import path from "../Images/Path.svg";
 
 const FirstSection = () => {
   return (
-    <div>
-      <div className="flex mt-[55px] gap-5 ml-[230px]">
-        <img src={bitmap} alt="" />
-        <img src={bitmap1} alt="" />
+    <div className="">
+      <div className="flex  gap-5">
+        <img className="w-[827px] h-[626px] rounded-[10px] mt-[130px]  " src={bitmap} alt="" />
+        <img className="h-[626px]  mt-[130px] rounded-l-lg       " src={bitmap1} alt="" />
       </div>
       <h1 className="absolute top-[230px] ml-[200px] text-[55px]  ">
         Temukan Ruang <br /> Kerja Dimanapun

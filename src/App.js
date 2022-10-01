@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import SecondSection from './components/SecondSection';
 import Summer from './components/Summer';
 import ThirdSection from './components/ThirdSection';
+import EndSection from './components/EndSection';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
-      <Summer/>
+      <Summer />
+      <EndSection/>
     </div>
   );
 }

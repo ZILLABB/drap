@@ -1,10 +1,10 @@
 import React from "react";
-import { section } from "./part";
+import path from "../Images/Path.png";
 
 const ThirdSection = () => {
   return (
-    <div className="flex pt-[83px]">
-      <div className="pt-[210px]  ">
+    <div className="flex pt-[83px] justify-between  ">
+      <div className="pt-[210px] pl-[200px]  ">
         <h1 className="text-[30px] pb-[10px]   ">Kenepa Ruang Kerja?</h1>
         <p className="mb-[64px] ">
           Kami telah berpengalaman melayani ratusan ribu orang dalam menemukan
@@ -16,38 +16,49 @@ const ThirdSection = () => {
         <p>Staff yang siap membantu Anda</p>
       </div>
 
-      <div className="bg-[#F6FAFA] w-[700px] h-[799px]  ">
-        {section.map((sec, index) => (
-          <div key={index} className="">
-            <div className=" px-[90px] gap-6 mt-[120px] ">
-              <div className="bg-[#E1F1F0] rounded-[100px] w-[60px] justify-center flex h-[60px]   ">
-                {sec.icon}
-              </div>
-              <div>
-                <div className="">{sec.title}</div>
-                <div>{sec.quote}</div>
-              </div>
-            </div>
-            <div className="flex px-[90px] gap-6  ">
-              <div className="bg-[#E1F1F0] rounded-[60px] w-[5px] justify-center flex  ">
-                {sec.icon1}
-              </div>
-              <div>
-                <div>{sec.title1}</div>
-                <div>{sec.quote1}</div>
-              </div>
-            </div>
-            <div className="flex px-[90px] gap-6">
-              <div className="bg-[#E1F1F0] rounded-[60px] w-[20px] justify-center flex  ">
-                {sec.icon2}
-              </div>
-              <div>
-                <div>{sec.title2}</div>
-                <div>{sec.quote2}</div>
-              </div>
+      <div className="bg-[#F6FAFA] w-[700px] h-[799px] pt-[210px] pl-[90px]   gap-[30px] ">
+        <div className="flex gap-[30px] mb-[79px] ">
+          <div className="bg-[#E1F1F0] w-[50px] h-[50px] rounded-full    ">
+            <div>
+              <img className="flex m-auto pt-[30%]   " src={path} alt="" />
             </div>
           </div>
-        ))}
+          <div>
+            <h1 className="text-[20px]">Reservasi Mudah</h1>
+            <p className="text-[15px]">
+              Proses pemesanan ruang kerja hanya <br /> membutuhkan waktu kurang dari 2
+              menit.
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-[30px] mb-[79px] ">
+          <div className="bg-[#E1F1F0] w-[50px] h-[50px] rounded-full    ">
+            <div>
+              <img className="flex m-auto pt-[30%]   " src={path} alt="" />
+            </div>
+          </div>
+          <div>
+            <h1 className="text-[20px]">Reservasi Mudah</h1>
+            <p className="text-[15px]">
+              Proses pemesanan ruang kerja hanya <br /> membutuhkan waktu kurang dari 2
+              menit.
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-[30px]">
+          <div className="bg-[#E1F1F0] w-[50px] h-[50px] rounded-full    ">
+            <div>
+              <img className="flex m-auto pt-[30%]   " src={path} alt="" />
+            </div>
+          </div>
+          <div>
+            <h1 className="text-[20px]">Reservasi Mudah</h1>
+            <p className="text-[15px]">
+              Proses pemesanan ruang kerja hanya <br /> membutuhkan waktu kurang dari 2
+              menit.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
