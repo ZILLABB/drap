@@ -10,26 +10,28 @@ import avatar5 from '../Images/Avatar - 5.svg'
 
 const EndSection = () => {
   return (
-    <div className="flex">
-      <div className="w-[700px] h-[799px] bg-[#F6F6FB] text-[40px] pt-[169px] pl-[200px]  ">
-        <div className=" rounded-full bg-[#5959B3] h-[106px] w-[106px] ">
+    <div className="lg:flex">
+      <div className="lg:w-[700px] lg:h-[799px] bg-[#F6F6FB] text-[40px] lg:pt-[169px] pt-[20px] pb-[20px] pl-[100px]   lg:pl-[200px] ">
+        <div className=" rounded-full bg-[#5959B3] h-[106px] w-[106px]   ">
           <img className="m-auto pt-[45%]   " src={vector} alt="" />
         </div>
-        <p className="w-[321px]   ">Apa Kata mereka tentang ruang kerja</p>
+        <div className=" ">
+          <p className="w-[321px]   ">Apa Kata mereka tentang ruang kerja</p>
+        </div>
       </div>
 
-      <div className="justify-center text-center ml-[140px] mr-[200px] pt-[169px]   ">
-        <h1 className="text-[30px] mb-[27px]">
+      <div className="justify-center text-center lg:pt-[169px] pt-[50px] lg:pl-[140px] lg:pr-[150px]  ">
+        <h1 className="text-[30px] pb-[27px]">
           Help us improve our productivity
         </h1>
-        <p className=" mb-[33.77px] w-[400px]  ">
+        <p className=" pb-[33.77px] lg:w-[400px]  ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <img className="mb-[40.42px] " src={separator} alt="separator" />
-        <div className="flex gap-[30px] justify-center  ">
+        <img className="pb-[40.42px] " src={separator} alt="separator" />
+        <div className="flex lg:gap-[30px] gap-[15px] justify-center pb-[30px]  ">
           <img src={avatar1} alt="" />
           <img src={avatar2} alt="" />
           <img src={avatar3} alt="" />
@@ -37,7 +39,7 @@ const EndSection = () => {
           <img src={avatar5} alt="" />
         </div>
         <h1 className="text-[16px]">Samantha William</h1>
-        <p>Senior Designer at Design Studio</p>
+        <p className="text-[14px] ">Senior Designer at Design Studio</p>
       </div>
     </div>
   );

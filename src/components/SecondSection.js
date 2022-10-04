@@ -8,7 +8,7 @@ import bitmap from "../Images/Bitmap.png";
 const SecondSection = () => {
   return (
     <div>
-      <div className="flex justify-between  px-[200px] mt-[95px]   ">
+      <div className="lg:flex lg:justify-between text-center  lg:px-[200px] lg:mt-[95px] mt-[50px]  ">
         <h1 className="text-[30px]   ">
           Pilih Ruang Kerja <br /> Sesuai Keinginanmu
         </h1>
@@ -21,12 +21,12 @@ const SecondSection = () => {
         </div>
 
       </div>
-        <div className="flex gap-3 mt-10 px-6 ">
-          <img className="w-[350px] h-[400px]  " src={bitmap4} alt="" />
-          <img className="w-[350px] h-[400px]  " src={bitmap3} alt="" />
-          <img className="w-[350px] h-[400px]  " src={bitmap2} alt="" />
-          <img className="w-[350px] h-[400px]  " src={bitmap1} alt="" />
-          <img className="w-[350px] h-[400px]  " src={bitmap} alt="" />
+        <div className="lg:flex md:grid grid-cols-3 gap-3 mt-10 lg:px-6 ">
+          <img className="lg:w-[350px] w-full px-[10px] h-[400px] mb-[]  " src={bitmap4} alt="" />
+          <img className="lg:w-[350px] w-full px-[10px] h-[400px] mb-[]  " src={bitmap3} alt="" />
+          <img className="lg:w-[350px] w-full px-[10px] h-[400px] mb-[]  " src={bitmap2} alt="" />
+          <img className="lg:w-[350px] w-full px-[10px] h-[400px] mb-[]  " src={bitmap1} alt="" />
+          <img className="lg:w-[350px] w-full px-[10px] h-[400px] mb-[]  " src={bitmap} alt="" />
         </div>
     </div>
   );
