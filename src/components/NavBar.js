@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div>
       <div>
-        <div className="lg:flex justify-between lg:px-[200px] mt-[50px]">
+        <div className="lg:flex justify-between lg:px-[200px] mt-[50px] font-body font-semibold ">
           <div className=" flex justify-between gap-[41px] px-[20px]   ">
             <h1 className="bg-[#1EA59A] flex rounded-full h-[30px] w-[30px] text-white  justify-center   items-center ">
               RK

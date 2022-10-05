@@ -9,15 +9,15 @@ const SecondSection = () => {
   return (
     <div>
       <div className="lg:flex lg:justify-between text-center  lg:px-[200px] lg:mt-[95px] mt-[50px]  ">
-        <h1 className="text-[30px]   ">
+        <h1 className="text-[30px] font-body font-bold   ">
           Pilih Ruang Kerja <br /> Sesuai Keinginanmu
         </h1>
         <div className=" ">
-          <p className="mb-[4px]   ">
+          <p className="mb-[4px] font-body font-normal   ">
             Kami yakin kamu akan menemukan ruang kerja yang sesuai dengan <br />
             keinginan dan seleramu. Kami memastikan kamu akan nyaman.
           </p>
-          <p className="text-[#1EA59A]">Lihat semua jenis ruang kerja</p>
+          <p className="text-[#1EA59A] font-body font-bold ">Lihat semua jenis ruang kerja</p>
         </div>
 
       </div>

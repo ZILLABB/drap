@@ -18,22 +18,22 @@ const FirstSection = () => {
           alt=""
         />
       </div>
-      <h1 className="lg:absolute lg:top-[230px] lg:ml-[100px] lg:text-[55px] text-[40px] text-center ">
+      <h1 className="lg:absolute lg:top-[230px] font-body font-extrabold  lg:ml-[100px] lg:text-[55px] text-[40px] text-center ">
         Temukan Ruang <br /> Kerja Dimanapun
       </h1>
       <div className="lg:flex  ">
         <div className="lg:w-[491px] w-[310px] md:w-[491px] lg:h-[123px] h-[107px] lg:px-[28px] px-[10px] gap-[94px]  rounded-[10px] item-center  lg:absolute top-[430px] lg:ml-[100px]   bg-white flex shadow-lg shadow-[#404852] mt-[20px]  ">
           <div className="  ">
-            <p className="text-[13px] pt-[32px] pb-[8px]  ">
+            <p className="text-[13px] pt-[32px] pb-[8px] font-body font-semibold  ">
               Temukan ruang Kerja di
             </p>
             <div className="flex gap-[31.13px]">
-              <h1 className="">Jakarta </h1>
+              <h1 className=" font-body font-semibold">Jakarta </h1>
               <img className="" src={path} alt="" />
             </div>
           </div>
           <div className="pt-[28px]">
-            <button className="bg-[#FE753E] rounded-[10px] lg:h-[67px] h-[50px] lg:w-[190px] w-[120px]  text-white ">
+            <button className="bg-[#FE753E] rounded-[10px] lg:h-[67px] h-[50px] lg:w-[190px] w-[120px] font-body font-extrabold  text-white ">
               Cari Sekarang
             </button>
           </div>

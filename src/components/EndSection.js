@@ -16,15 +16,17 @@ const EndSection = () => {
           <img className="m-auto pt-[45%]   " src={vector} alt="" />
         </div>
         <div className=" ">
-          <p className="w-[321px]   ">Apa Kata mereka tentang ruang kerja</p>
+          <p className="w-[321px] font-body font-bold   ">
+            Apa Kata mereka tentang ruang kerja
+          </p>
         </div>
       </div>
 
       <div className="justify-center text-center lg:pt-[169px] pt-[50px] lg:pl-[140px] lg:pr-[150px]  ">
-        <h1 className="text-[30px] pb-[27px]">
+        <h1 className="text-[30px] pb-[27px] font-body font-semibold">
           Help us improve our productivity
         </h1>
-        <p className=" pb-[33.77px] lg:w-[400px]  ">
+        <p className=" pb-[33.77px] lg:w-[400px] font-body font-normal  ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -38,8 +40,10 @@ const EndSection = () => {
           <img src={avatar4} alt="" />
           <img src={avatar5} alt="" />
         </div>
-        <h1 className="text-[16px]">Samantha William</h1>
-        <p className="text-[14px] ">Senior Designer at Design Studio</p>
+        <h1 className="text-[16px] font-body font-bold ">Samantha William</h1>
+        <p className="text-[14px] font-body font-light ">
+          Senior Designer at Design Studio
+        </p>
       </div>
     </div>
   );

@@ -10,9 +10,9 @@ const Summer = () => {
           <div key={index}>
             <div className="mt-[20px]  ">
               <div >{datum.image}</div>
-              <div className="text-[#1EA59A] text-[18px]">{datum.title}</div>
-              <div>{datum.article}</div>
-              <div className="text-[15px]">{datum.price}</div>
+              <div className="text-[#1EA59A] text-[18px] font-body font-bold ">{datum.title}</div>
+              <div className='font-body font-light '>{datum.article}</div>
+              <div className="text-[15px] font-body font-normal ">{datum.price}</div>
             </div>
           </div>
         ))}
